@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: violet;
+  background: linear-gradient(to top left, rgb(106, 23, 207), blueviolet);
+  display: flex;
+  justify-content: center;
+
+  /* background-color: #60b347; */
+}
+
+.modal {
+  background-color: antiquewhite;
+  width: 60%;
+  text-align: center;
+  padding: 3rem 3rem;
+  margin: 15rem 3rem;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  font-size: 29px;
+  font-weight: bolder;
+}
+button {
+  border-radius: 25px;
+  font-size: 2rem;
+  padding: 1.2rem 3rem;
+  margin: 5rem 2rem;
+  color: blueviolet;
+}
