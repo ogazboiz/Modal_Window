@@ -55,6 +55,9 @@ body {
   backdrop-filter: blur(3px);
   height: 100%;
 }
+.hidden {
+  display: none;
+}
 p {
   font-size: 20px;
   text-align: center;
@@ -68,4 +71,10 @@ h2 {
 button {
   cursor: pointer;
   border: none;
+}
+footer {
+  position: fixed;
+  align-items: flex-start;
+  bottom: 40px;
+  font-size: 15px;
 }
