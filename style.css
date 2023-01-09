@@ -15,6 +15,8 @@ body {
   background: linear-gradient(to top left, rgb(106, 23, 207), blueviolet);
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
 
   /* background-color: #60b347; */
 }
@@ -22,21 +24,48 @@ body {
 .modal {
   background-color: antiquewhite;
   width: 60%;
-  text-align: center;
   padding: 3rem 3rem;
   margin: 15rem 3rem;
+  position: absolute;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
 }
-p {
-  font-size: 20px;
-}
-h2 {
-  font-size: 29px;
-  font-weight: bolder;
-}
-button {
+.show-modal {
   border-radius: 25px;
   font-size: 2rem;
   padding: 1.2rem 3rem;
   margin: 5rem 2rem;
   color: blueviolet;
+}
+.close-modal {
+  top: 1rem;
+  right: 2rem;
+  position: absolute;
+  border: none;
+  background: none;
+  font-size: 4rem;
+  color: violet;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(3px);
+  height: 100%;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: bolder;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  border: none;
 }
